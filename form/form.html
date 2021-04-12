@@ -1,0 +1,78 @@
+<!-- <<<<<<< Updated upstream -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tank Questions</title>
+  <style>
+   body {
+     margin:0;
+      padding:0;
+   }
+    canvas{
+      position:absolute;
+      left:0;
+      top:0;
+     z-index:-1;
+   }
+   div{
+      position:absolute;
+      z-index:0;
+      left:12px;
+     top:10px;
+    }
+  </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="../animated_bg/fish.js"></script>
+    <script type="text/javascript" src="../animated_bg/bubble.js"></script>
+    <script type="text/javascript" src="../animated_bg/aqua_bg.js"></script>
+  </head>
+  <body>
+    <canvas id="myCanvas" style="border:1px solid #c3c3c3;">
+        Your browser does not support the canvas element.
+    </canvas>
+			</div>
+
+<!-- </section> -->
+
+<div class= "login">
+    <section class="section" id="questions">
+        <div class="" id="quiz-questions">
+
+            <div class="question" id="question-1">
+                <form>
+                    <h2 class="section-heading text-center">What is your aquarium tank size?</h2>
+
+
+                    <ul class="center answers">
+                    <li><input data-endingsentence="Small " name="rq" onclick="setAnswerButton()" type="radio">Small 5 to 15 gallons</li>
+                    <li><input data-endingsentence="Mid-Sized" name="rq" onclick="setAnswerButton()" type="radio">Mid-Sized 20 to 40 gallons</li>
+                    <li><input data-endingsentence="Large " name="rq" onclick="setAnswerButton()" type="radio">Large 50 to 90 gallons </li>
+                    <li><input data-endingsentence="Extra Large " name="rq" onclick="setAnswerButton()" type="radio">Extra Large 125 to 180 gallons </li>
+                   </ul>
+                </form>
+            </div>
+
+
+            <div class="question" id="question-2">
+                <form>
+                    <h2 class="section-heading text-center">How many fish do you have in your aquarium tank?</h2>
+
+
+                    <ul class="center answers">
+                    <li><input data-endingsentence="1-5" name="rq" onclick="setAnswerButton()" type="radio">1 to 5</li>
+                    <li><input data-endingsentence="6-15 " name="rq" onclick="setAnswerButton()" type="radio">6 to 15</li>
+                    <li><input data-endingsentence="16-30 " name="rq" onclick="setAnswerButton()" type="radio">16 to 30</li>
+                    <li><input data-endingsentence="31-50" name="rq" onclick="setAnswerButton()" type="radio">31 to 50</li>
+                    </ul>
+                </form>
+            </div>
+
+            </div>
+          <div class="invisible" id="confirm_answer">
+                        <div class="home" onclick="gohome();">Go To Home Page</div>
+					</div>
+        </div>
+      <script src="../questions.js"></script>
+    </div>
+</body>
+</html>

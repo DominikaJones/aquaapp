@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <style>
+   body {
+     margin:0;
+      padding:0;
+   }
+    canvas{
+      position:absolute;
+      left:0;
+      top:0;
+     z-index:-1;
+   }
+   div{
+      position:absolute;
+      z-index:0;
+      left:12px;
+     top:10px;
+    }
+  </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="../animated_bg/fish.js"></script>
+    <script type="text/javascript" src="../animated_bg/bubble.js"></script>
+    <script type="text/javascript" src="../animated_bg/aqua_bg.js"></script>
+</head>
+<body>
+  <canvas id="myCanvas" style="border:1px solid #c3c3c3;">
+      Your browser does not support the canvas element.
+  </canvas>
+
+  <div class= "container">
+      <div class= "login">
+          <div class= "nav-buttons">
+              <button id="loginBtn" class='active' >Login </button>
+              <button id="registerBtn">Sign Up</button>
+          </div>
+            <form action="" id="registerform" style="opacity: 0;">
+              <label for="username">username</label>
+              <input type="text" id="username">
+              <label for="passwword">password</label>
+              <input type="text" id="password">
+              <label for="confirmpassword">confirm password</label>
+              <input type="text" id="confirmpassword">
+              <input type="submit" value="Submit" class="submit" onclick="signup();">
+            </form>
+         </div>
+    </div>
+    <script src="../signup.js"></script>
+  </body>
+</html>

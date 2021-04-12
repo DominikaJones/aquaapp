@@ -1,0 +1,125 @@
+html,body * {
+  box-sizing: border-box; 
+  font-family: 'Open Sans', sans-serif; 
+  margin:0;
+  padding:0;
+  color:inherit;
+  background-color:inherit;
+}
+.container {
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  justify-content: center; 
+}
+
+.move {
+  text-align: center;
+  height: 15vh;
+  background-color: rgb(15, 81, 202);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.center{
+  margin:auto;
+  text-align: center;
+}
+
+.home_container{
+  margin-top: 5vh;
+  width: 100vw;
+}
+
+.login{
+  height: 600px;
+  width: 550px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding:0 2em;
+  border-radius: 5px;
+  box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+  overflow: hidden; 
+  background: linear-gradient(180deg, rgb(15, 81, 202) 5%, rgb(78, 62, 223) 52%);
+  color:#ffffff;
+}
+
+input.submit {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1em;
+  text-align: center;
+  position: relative;
+  color: rgba(255,255,255, 1);
+  padding: 8px 0px;
+  width: 100%;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 23px;
+  background-color: rgb(61, 19, 179);
+}
+
+.answers
+{
+	text-align: left;
+}
+* {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+*::before, *::after {
+    -webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.quiz-section {
+	padding: 160px 0;
+	text-align: center;
+	height: 100%;
+}
+
+.quiz-section .container {
+	position: relative;
+	z-index: 1;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.quiz-section:before {
+	content: "";
+	display: inline-block;
+	height: 100%;
+	width: 1px;
+	vertical-align: middle;
+}
+
+.list-inline {
+  list-style: outside none none;
+  margin-left: -5px;
+  padding-left: 0;
+}
+
+.answers
+{
+text-align: left;
+}
+
+.questions {
+  background-color: #f6f6f6;
+  margin: 15px 0;
+  padding: 30px;
+  text-align: center;
+}
+
+ul, ol {
+  margin-bottom: 10px;
+  margin-top: 0;
+list-style: none;
+}
